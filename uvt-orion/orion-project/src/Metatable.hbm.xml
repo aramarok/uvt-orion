@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="com.uvt.team08.orion.domain.model.Metatable" table="metatable">
+ 
+		<id name="id" column="id" type="java.lang.Integer">
+ 			<generator class="increment"/>
+		</id>
+		<property name="numeTabela" column="nume_tabela" type="java.lang.String" />
+		<property name="campTabela" column="camp_tabela" type="java.lang.String" />
+		<property name="campObiect" column="camp_obiect" type="java.lang.String" />
+		<property name="campVizual" column="camp_vizual" type="java.lang.String" />
+		<property name="tip" 		column="tip" 		 type="java.lang.String" />
+		<property name="extraStuf" 	column="extrastuf" 	 type="java.lang.String" />
+		
+	</class>
+</hibernate-mapping>

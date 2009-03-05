@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="com.uvt.team08.orion.domain.model.User" table="users">
+ 
+		<id name="userId" column="user_id" type="java.lang.Integer">
+ 			<generator class="increment"/>
+		</id>
+		<property name="emailAddress" column="email_address" type="java.lang.String" />
+		<property name="password" column="password" type="java.lang.String" />
+		<property name="userRight" column="user_right" type="com.uvt.team08.orion.domain.model.hibernatemap.RightHibernate"/>
+		<property name="userStatus" column="user_status" type="com.uvt.team08.orion.domain.model.hibernatemap.StatusHibernate"/>
+		<property name="firstName" column="first_name" type="java.lang.String" />
+		<property name="lastName" column="last_name" type="java.lang.String" />
+		<property name="birthDate" column="birth_date" type="java.util.Date"/>
+		<property name="functieDidactica" column="functie_didactica" type="com.uvt.team08.orion.domain.model.hibernatemap.FunctieDidacticaHibernate" />
+		<property name="doctor" column="doctor" type="java.lang.Boolean" />
+		<property name="doctorDin" column="doctor_din" type="java.lang.Integer" />
+		<property name="conducatorDoctorat" column="conducator_doctorat" type="java.lang.Boolean" />
+		<property name="doctoranziStagiuZi" column="doctoranzi_stagiu_zi" type="java.lang.Integer" />
+		<property name="doctoranziStagiuFrecventaRedusa" column="doctoranzi_stagiu_fr" type="java.lang.Integer" />
+		<property name="level" column="level" type="com.uvt.team08.orion.domain.model.hibernatemap.LevelHibernate" />
+		<property name="consultant" column="consultant" type="java.lang.Boolean" />
+
+		<set name="lista1" table="useri_lista1">
+	        <key column="user_id"/>
+	        <many-to-many column="id_lista1" class="com.uvt.team08.orion.domain.model.Lista1"/>
+	    </set>
+	    <set name="lista2" table="useri_lista2">
+	        <key column="user_id"/>
+	        <many-to-many column="id_lista2" class="com.uvt.team08.orion.domain.model.Lista2"/>
+	    </set>
+	    <set name="lista3" table="useri_lista3">
+	        <key column="user_id"/>
+	        <many-to-many column="id_lista3" class="com.uvt.team08.orion.domain.model.Lista3"/>
+	    </set>
+	    <set name="lista4" table="useri_lista4">
+	        <key column="user_id"/>
+	        <many-to-many column="id_lista4" class="com.uvt.team08.orion.domain.model.Lista4"/>
+	    </set>
+	    <set name="lista5" table="useri_lista5">
+	        <key column="user_id"/>
+	        <many-to-many column="id_lista5" class="com.uvt.team08.orion.domain.model.Lista5"/>
+	    </set>
+	    <set name="lista6" table="useri_lista6">
+	        <key column="user_id"/>
+	        <many-to-many column="id_lista6" class="com.uvt.team08.orion.domain.model.Lista6"/>
+	    </set>
+	    <set name="lista7" table="useri_lista7">
+	        <key column="user_id"/>
+	        <many-to-many column="id_lista7" class="com.uvt.team08.orion.domain.model.Lista7"/>
+	    </set>
+	    <set name="lista8" table="useri_lista8">
+	        <key column="user_id"/>
+	        <many-to-many column="id_lista8" class="com.uvt.team08.orion.domain.model.Lista8"/>
+	    </set>
+	    <set name="lista9" table="useri_lista9">
+	        <key column="user_id"/>
+	        <many-to-many column="id_lista9" class="com.uvt.team08.orion.domain.model.Lista9"/>
+	    </set>
+	     <set name="lista10" table="useri_lista10">
+	        <key column="user_id"/>
+	        <many-to-many column="id_lista10" class="com.uvt.team08.orion.domain.model.Lista10"/>
+	    </set>
+
+		<property name="cvLocation" column="cv_location" type="java.lang.String" />
+	</class>
+</hibernate-mapping>

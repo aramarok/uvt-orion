@@ -1,0 +1,3 @@
+<project name="imported_properties" default="">
+    <property name="appserver.home" location="H:\oldHard\Victor\Kituri\kituri de la vesa\Utilitare programare\tomcat\apache-tomcat-5.5.25"/>
+</project>

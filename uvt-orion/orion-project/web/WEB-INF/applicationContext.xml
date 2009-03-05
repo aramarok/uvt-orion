@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<beans 
+	xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+	version="1.0">
+
+	<bean id="dataSource" class="org.hibernate.ejb.HibernatePersistence">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/orion" />
+		<property name="username" value="orion" />
+		<property name="password" value="orion" />
+	</bean>
+
+	<bean id="entityManagerFactory" class="org.hibernate.ejb.HibernatePersistence">
+		<property name="persistenceUnitName" value="Orion" />
+		<property name="dataSource" ref="dataSource" />
+		
+		<!-- 
+			<property name="jpaVendorAdapter">
+				<bean class="org.springframework.orm.jpa.vendor.OpenJpaVendorAdapter">
+					<property name="databasePlatform" value="org.apache.openjpa.jdbc.sql.MySQLDictionary" />
+					<property name="generateDdl" value="true" />
+					<property name="showSql" value="true" />
+				</bean>
+			</property> -->
+	</bean>
+
+	<!-- Transaction manager for a single JPA EntityManagerFactory (alternative to JTA)-->
+	<bean id="transactionManager" class="org.hibernate.ejb.HibernatePersistence">
+		<property name="entityManagerFactory" ref="entityManagerFactory" />
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<tx:annotation-driven />
+
+</beans>
