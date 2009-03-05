@@ -1,0 +1,4 @@
+
+<project name="imported_properties" default="">
+    <property name="appserver.home" location="D:\orion-demo\apache-tomcat-5.5.26"/>
+</project>
