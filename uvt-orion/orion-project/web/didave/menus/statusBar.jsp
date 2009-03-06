@@ -2,7 +2,7 @@
 <link rel="stylesheet" type="text/css" href="calendar.css" />
 <TABLE WIDTH=100% ALIGN=CENTER CELLSPACING=0 BORDER=0 bordercolor="#8E388E">	
 	<TR>
-		<TD ALIGN=CENTER BGCOLOR="#8E388E">
+		<TD ALIGN=CENTER BGCOLOR="#488AC7">
 			<P>
 			<BR/>
 			</P>

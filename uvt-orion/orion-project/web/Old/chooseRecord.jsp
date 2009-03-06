@@ -26,7 +26,7 @@
 		</TR>
 	<TR>
 		<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="66CCFF">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Lista: </FONT>
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Lista: </FONT>
 			</P>
 		<TD COLSPAN=1 BGCOLOR="66CCFF">
 				<P><FONT FACE="Arial, sans-serif"><SELECT NAME="Lista" STYLE="font-family: 'Arial', sans-serif; font-size: 11pt">

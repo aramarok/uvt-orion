@@ -80,7 +80,7 @@
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="66CCFF">
 				<P>
-					<FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+					<FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 					Bine ati venit!
 					</FONT>
 				</P>

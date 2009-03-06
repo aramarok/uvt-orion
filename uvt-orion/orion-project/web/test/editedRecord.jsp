@@ -77,7 +77,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Editat cu success! </FONT></P>
 			</TD>
 		</TR>
@@ -88,7 +88,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Eroare la editare! </FONT></P>
 			</TD>
 		</TR>
@@ -100,7 +100,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Exceptie: <%=e.getMessage()%> </FONT></P>
 			</TD>
 		</TR>
@@ -137,7 +137,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Editat cu success! </FONT></P>
 			</TD>
 		</TR>
@@ -148,7 +148,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Eroare la editare! </FONT></P>
 			</TD>
 		</TR>
@@ -160,7 +160,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Exceptie: <%=e.getMessage()%> </FONT></P>
 			</TD>
 		</TR>
@@ -197,7 +197,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Editat cu success! </FONT></P>
 			</TD>
 		</TR>
@@ -208,7 +208,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Eroare la editare! </FONT></P>
 			</TD>
 		</TR>
@@ -220,7 +220,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Exceptie: <%=e.getMessage()%> </FONT></P>
 			</TD>
 		</TR>
@@ -261,7 +261,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Editat cu success! </FONT></P>
 			</TD>
 		</TR>
@@ -272,7 +272,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Eroare la editare! </FONT></P>
 			</TD>
 		</TR>
@@ -284,7 +284,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Exceptie: <%=e.getMessage()%> </FONT></P>
 			</TD>
 		</TR>
@@ -325,7 +325,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Editat cu success! </FONT></P>
 			</TD>
 		</TR>
@@ -336,7 +336,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Eroare la editare! </FONT></P>
 			</TD>
 		</TR>
@@ -348,7 +348,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Exceptie: <%=e.getMessage()%> </FONT></P>
 			</TD>
 		</TR>
@@ -380,7 +380,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Editat cu success! </FONT></P>
 			</TD>
 		</TR>
@@ -391,7 +391,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Eroare la editare! </FONT></P>
 			</TD>
 		</TR>
@@ -403,7 +403,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Exceptie: <%=e.getMessage()%> </FONT></P>
 			</TD>
 		</TR>
@@ -435,7 +435,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Editat cu success! </FONT></P>
 			</TD>
 		</TR>
@@ -446,7 +446,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Eroare la editare! </FONT></P>
 			</TD>
 		</TR>
@@ -458,7 +458,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Exceptie: <%=e.getMessage()%> </FONT></P>
 			</TD>
 		</TR>
@@ -488,7 +488,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Editat cu success! </FONT></P>
 			</TD>
 		</TR>
@@ -499,7 +499,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Eroare la editare! </FONT></P>
 			</TD>
 		</TR>
@@ -511,7 +511,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Exceptie: <%=e.getMessage()%> </FONT></P>
 			</TD>
 		</TR>
@@ -552,7 +552,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Editat cu success! </FONT></P>
 			</TD>
 		</TR>
@@ -563,7 +563,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Eroare la editare! </FONT></P>
 			</TD>
 		</TR>
@@ -575,7 +575,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Exceptie: <%=e.getMessage()%> </FONT></P>
 			</TD>
 		</TR>
@@ -604,7 +604,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Editat cu success! </FONT></P>
 			</TD>
 		</TR>
@@ -615,7 +615,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Eroare la editare! </FONT></P>
 			</TD>
 		</TR>
@@ -627,7 +627,7 @@
 	<TABLE WIDTH=90% HEIGHT=80% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
-			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+			<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 			Exceptie: <%=e.getMessage()%> </FONT></P>
 			</TD>
 		</TR>

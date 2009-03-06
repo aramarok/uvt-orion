@@ -39,7 +39,7 @@
 				String name = Tables.getTableNameByID(keys[i]);
 				
 				out.println("<BR />	<A href=\"addRecord.jsp?nume_tabela=" + keys[i]
-						+ "\" STYLE=\"font-family: Verdana, 'Arial', sans-serif; font-size: 12pt; color: midnightblue; \"><B>" + name + "</B></A>");
+						+ "\" STYLE=\"font-family: Verdana, 'Arial', sans-serif; font-size: 12pt; color: #ADDFFF; \"><B>" + name + "</B></A>");
 			}
 
 %>
