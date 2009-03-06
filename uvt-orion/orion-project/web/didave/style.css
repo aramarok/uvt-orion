@@ -15,13 +15,13 @@
 .buton {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	color: #003366;
+	color: #1589FF;
 }
 
 .err_field {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 11px;
-	color: #FFFFFF;
+	color: #FAAFBE;
 	text-align: center;
 	font-weight: bolder;
 	background-color: #FF0000;
@@ -30,8 +30,8 @@
 .odd {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	color: #333333;
-	background-color: #CADDEB;
+	color: #FFFFFF;
+	background-color: #1569C7;
 	height: 30px;
 	vertical-align: middle;
 }
@@ -39,15 +39,15 @@
 .even {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	color: #333333;
-	background-color: #D3E0EB;
+	color: #FFFFFF;
+	background-color: #1589FF;
 	height: 30px;
 	vertical-align: middle;
 }
 
 .bold_link {
 	text-decoration: none;
-	color: #004BA8;
+	color: #3BB9FF;
 	font-weight: bold;
 }
 
@@ -57,7 +57,7 @@
 
 .normal_link {
 	text-decoration: none;
-	color: #004BA8;
+	color: #3BB9FF;
 }
 
 .normal_link:hover {
@@ -66,7 +66,7 @@
 
 .table_header {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	color: #004BA8;
+	color: #FFFFFF;
 	font-weight: bold;
 	height: 30px;
 }
@@ -90,14 +90,14 @@
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
-	color: #8DA3B1;
+	color: #2B60DE;
 }
 
 .aaction {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
-	color: #5F7383;
+	color: #B7CEEC;
 	text-decoration: none;
 }
 
@@ -108,21 +108,21 @@
 .another {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 13px;
-	color: #B8CCDB;
+	color: #151B8D;
 }
 
 .trhover {
 	
 	font-size: 12px;
-	background-color: #D5E5EB;
+	background-color: #ADDFFF;
 	height: 30px;
 }
 
 .contents {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 11px;
-	color: #8B475D;
-	background-color: #FFC0CB;
+	color: #FFFFFF;
+	background-color: #2554C7;
 }
 
 .font_home{
@@ -132,26 +132,26 @@
 .content_header {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 20px;
-	color: #8B475D;
-	background-color: #EE799F;
+	color: #FFFFFF;
+	background-color: #2B60DE;
 }
 
 .contents_important_message {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 20px;
-	color: #C71585;
-	background-color: #FF00FF;
+	color: #E41B17;
+	background-color: #357EC7;
 }	
 
 .menu_back {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 11px;
-	background-color: #EECBAD;
+	background-color: #1589FF;
 }
 
 .titlu {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 18px;
-	color: #8B475D;
-	background-color: #EECBAD;
+	color: #FFFFFF;
+	background-color: #153E7E;
 }
