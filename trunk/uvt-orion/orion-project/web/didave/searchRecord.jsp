@@ -59,13 +59,13 @@ public int action = CHOOSE_LIST;
 			String [] keys = Tables.getListIDsSortedByListsNames();
 
 			out.println("<BR />	<A href=\"searchRecord.jsp?nume_tabela=all" 
-            						+ "\" STYLE=\"font-family: Verdana, 'Arial', sans-serif; font-size: 12pt; padding-left:30px; color: midnightblue; \"><B> Activitate pe perioada </B></A><br/>");
+            						+ "\" STYLE=\"font-family: Verdana, 'Arial', sans-serif; font-size: 12pt; padding-left:30px; color: #ADDFFF; \"><B> Activitate pe perioada </B></A><br/>");
 			
 			for (int i = 0; i < keys.length; i++) {
 				String name = Tables.getTableNameByID(keys[i]);
 				
 				out.println("<BR /> <BR />	<A href=\"searchRecord.jsp?nume_tabela=" + keys[i]
-						+ "\" STYLE=\"font-family: Verdana, 'Arial', sans-serif; font-size: 12pt; padding-left:30px; color: midnightblue; \"><B>" + name + "</B></A>");
+						+ "\" STYLE=\"font-family: Verdana, 'Arial', sans-serif; font-size: 12pt; padding-left:30px; color: #ADDFFF; \"><B>" + name + "</B></A>");
 			}
 			%>			
 			</td>

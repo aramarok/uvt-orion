@@ -106,7 +106,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Titlu Articol: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Titlu Articol: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -121,7 +121,7 @@ window.onload = function ()
 		</TR>
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Autori: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Autori: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -134,7 +134,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Denumire revista: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Denumire revista: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -147,7 +147,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Volum: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Volum: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -160,7 +160,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Numar: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Numar: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -173,7 +173,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Pagina de inceput: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Pagina de inceput: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -186,7 +186,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Pagina de sfarsit: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Pagina de sfarsit: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -199,7 +199,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Anul: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Anul: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -212,7 +212,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Factor Impact: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Factor Impact: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -286,7 +286,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Titlu Articol: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Titlu Articol: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -299,7 +299,7 @@ window.onload = function ()
 		</TR>
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Autori: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Autori: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -312,7 +312,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Denumire revista: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Denumire revista: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -325,7 +325,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Volum: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Volum: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -338,7 +338,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Numar: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Numar: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -351,7 +351,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Pagina de inceput: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Pagina de inceput: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -364,7 +364,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Pagina de sfarsit: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Pagina de sfarsit: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -377,7 +377,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Anul: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Anul: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -452,7 +452,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Titlu Articol: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Titlu Articol: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -465,7 +465,7 @@ window.onload = function ()
 		</TR>
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Autori: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Autori: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -478,7 +478,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Denumire revista: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Denumire revista: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -491,7 +491,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Volum: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Volum: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -504,7 +504,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Numar: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Numar: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -517,7 +517,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Pagina de inceput: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Pagina de inceput: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -530,7 +530,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Pagina de sfarsit: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Pagina de sfarsit: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -543,7 +543,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Anul: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Anul: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -621,7 +621,7 @@ window.onload = function ()
 					
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Titlu Articol: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Titlu Articol: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -634,7 +634,7 @@ window.onload = function ()
 		</TR>
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Autori: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Autori: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -647,7 +647,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Denumire volum </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Denumire volum </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -660,7 +660,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Denumire Conferinta: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Denumire Conferinta: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -673,7 +673,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Locul desfasurarii: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Locul desfasurarii: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -686,7 +686,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Data desfasurarii: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Data desfasurarii: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -699,7 +699,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Pagina de inceput: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Pagina de inceput: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -712,7 +712,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Pagina de sfarsit: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Pagina de sfarsit: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -725,7 +725,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Anul: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Anul: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -802,7 +802,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Titlu Conferinta: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Titlu Conferinta: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -815,7 +815,7 @@ window.onload = function ()
 		</TR>
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Autori: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Autori: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -828,7 +828,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Denumire volum </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Denumire volum </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -841,7 +841,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Denumire Manifestarii </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Denumire Manifestarii </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -854,7 +854,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Locul desfasurarii: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Locul desfasurarii: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -867,7 +867,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Data desfasurarii: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Data desfasurarii: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -880,7 +880,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Pagina de inceput: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Pagina de inceput: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -893,7 +893,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Pagina de sfarsit: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Pagina de sfarsit: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -906,7 +906,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Anul: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Anul: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -981,7 +981,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Titlu Monografie </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Titlu Monografie </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -994,7 +994,7 @@ window.onload = function ()
 		</TR>
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Autori: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Autori: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1007,7 +1007,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Editura:  </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Editura:  </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1020,7 +1020,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Localitatea: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Localitatea: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1033,7 +1033,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Anul aparitiei: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Anul aparitiei: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1046,7 +1046,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Nr pagini: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Nr pagini: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1123,7 +1123,7 @@ window.onload = function ()
 					
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Titlu: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Titlu: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1136,7 +1136,7 @@ window.onload = function ()
 		</TR>
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Autori: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Autori: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1149,7 +1149,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Editura:  </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Editura:  </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1162,7 +1162,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Localitatea: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Localitatea: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1175,7 +1175,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Anul aparitiei: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Anul aparitiei: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1188,7 +1188,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Nr pagini: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Nr pagini: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1263,7 +1263,7 @@ window.onload = function ()
 			
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Autorul care citeaza: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Autorul care citeaza: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1276,7 +1276,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Denumire Revista:  </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Denumire Revista:  </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1289,7 +1289,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Volum: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Volum: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1302,7 +1302,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Nr pagini: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Nr pagini: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1315,7 +1315,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Anul aparitiei: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Anul aparitiei: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1393,7 +1393,7 @@ window.onload = function ()
 			
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Titlu Articol: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Titlu Articol: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1406,7 +1406,7 @@ window.onload = function ()
 		</TR>
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Autori: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Autori: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1419,7 +1419,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Denumire volum </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Denumire volum </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1432,7 +1432,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Denumire Conferinta: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Denumire Conferinta: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1445,7 +1445,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Locul desfasurarii: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Locul desfasurarii: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1458,7 +1458,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Data desfasurarii: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Data desfasurarii: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1471,7 +1471,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Pagina de inceput: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Pagina de inceput: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1484,7 +1484,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Pagina de sfarsit: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Pagina de sfarsit: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1497,7 +1497,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Anul: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Anul: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1571,7 +1571,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Tip grant: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Tip grant: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1597,7 +1597,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Perioada: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Perioada: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1610,7 +1610,7 @@ window.onload = function ()
 		</TR>	
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Suma: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Suma: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>
@@ -1623,7 +1623,7 @@ window.onload = function ()
 		</TR>				
 		<TR>
 			<TD COLSPAN=1  ALIGN=RIGHT BGCOLOR="#DFE8F0">
-				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">Director program: </FONT>
+				<P><FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>Director program: </FONT>
 				</P>	
 			<TD COLSPAN=1 ALIGN=CENTER BGCOLOR="#DFE8F0">
 			<P><BR></P>

@@ -207,7 +207,7 @@ public class GUIServiceBean implements GUIService {
 		
 		result = result + "<TR class=\"contents\">";
 		result = result + "<TD class=\"contents\" COLSPAN=1  ALIGN=RIGHT>";
-		result = result + "<P><FONT FACE=\"Arial, sans-serif\" SIZE=2 COLOR=\"000000\">" + label + "</FONT>";
+		result = result + "<P><FONT FACE=\"Arial, sans-serif\" SIZE=2 COLOR=\"#C2DFFF\">" + label + "</FONT>";
 		result = result + "</P></TD>";
 		result = result + "<TD class=\"contents\" COLSPAN=1 ALIGN=CENTER>";
 		result = result + "<P><BR></P>";

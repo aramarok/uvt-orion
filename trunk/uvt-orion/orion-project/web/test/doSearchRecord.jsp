@@ -109,7 +109,7 @@ try
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
 				<P>
-					<FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+					<FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 						Cautarea e esuata 
 					</FONT>
 				</P>
@@ -125,7 +125,7 @@ catch(Exception e){
 		<TR>
 			<TD COLSPAN=7 ALIGN=CENTER BGCOLOR="#DFE8F0">
 				<P>
-					<FONT FACE="Arial, sans-serif" SIZE=2 COLOR="000000">
+					<FONT FACE="Arial, sans-serif" SIZE=2 COLOR= #C2DFFF>
 						Exceptie: <%=e.getMessage()%>
 					</FONT>
 				</P>
