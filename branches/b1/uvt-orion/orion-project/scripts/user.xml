@@ -1,0 +1,8 @@
+<!-- cont Sergiu -->
+
+<!-- ABOUT: Va creati in acest dosar un fisier care sa aiba numele utilizatorului curent logat in sistemului de operare -->
+<!-- Setati apoi mai jos calea catre tomcat -->
+
+<project name="imported_properties" default="">
+    <property name="appserver.home" location="C:\Program Files\Apache Software Foundation\Tomcat 5.5"/>
+</project>

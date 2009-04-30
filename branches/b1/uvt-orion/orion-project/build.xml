@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="orion" basedir="." default="usage">
+	<import file="scripts/${user.name}.xml" />
+	<property file="build.properties" />
+
+	<property name="src.dir" value="src" />
+	<property name="web.dir" value="web" />
+	<property name="build.dir" value="build" />
+	<property name="name" value="orion" />
+	<property name="test.dir" value="test" />
+	<property name="lib.dir" value="lib" />
+	<property name="dist_packed.dir" location="dist" />
+	<property name="dist_unpacked.dir" location="${dist_packed.dir}/${name}" />
+	<property name="deploy.path" location="${appserver.home}/webapps" />
+
+	<property name="webapp-context" value="${name}" />
+
+	<!-- Classpath declaration -->
+	<path id="project.classpath">
+		<fileset dir="${lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<!-- Enhance classpath-->
+	<path id="classpath">
+		<pathelement path="${build.dir}" />
+		<fileset dir="${lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+		<pathelement location="classes" />
+	</path>
+
+	<path id="master-classpath">
+		<fileset dir="${web.dir}/WEB-INF/lib">
+			<include name="*.jar" />
+		</fileset>
+		<!-- We need the servlet API classes: -->
+		<!--  * for Tomcat 5/6 use servlet-api.jar -->
+		<!--  * for other app servers - check the docs -->
+		<fileset dir="${appserver.lib}">
+			<include name="servlet*.jar" />
+		</fileset>
+		<pathelement path="${build.dir}" />
+	</path>
+
+	<path id="test-classpath">
+		<fileset dir="${web.dir}/WEB-INF/lib">
+			<include name="*.jar" />
+		</fileset>
+		<pathelement path="${build.dir}" />
+		<pathelement path="${test.dir}" />
+		<pathelement path="${web.dir}/WEB-INF/classes" />
+	</path>
+
+	<!-- _CLEAN_DEPLOY -->
+	<target name="_clean_deploy" depends="clean, deploy" description="Cleans output directories and deploys the application.">
+	</target>
+	
+	<!-- _CLEAN_DEPLOY_2 -->
+	<target name="_clean_deploy_2" depends="clean, deploy_2" description="Cleans output directories and deploys the application.">
+	</target>
+	
+	<!-- USAGE -->
+	<target name="usage">
+		<echo message="" />
+		<echo message="${name} build file" />
+		<echo message="-----------------------------------" />
+		<echo message="" />
+		<echo message="Available targets are:" />
+		<echo message="" />
+		<echo message="_clean_deploy   --> clean+deploy"/>
+		<echo message="build   --> Build the application" />
+		<echo message="buildwar   --> Build the tests" />
+		<echo message="compile   --> Compile the application classes" />
+		<echo message="init   --> Creates the build directory in the application's root directory" />
+		<echo message="tests   --> Start the tests" />
+		<echo message="deploy   --> Deploy application as directory" />
+		<echo message="deploywar    --> Deploy application as a WAR file" />
+		<echo message="clean    --> Cleans the build directories in the application development directory" />
+		<echo message="undeploy   --> Un-Deploy the application (unpacked)" />
+		<echo message="undeploywar   --> Un-Deploy the application (WAR file)" />
+		<echo message="usage    --> Usage of the ant targets for this application" />
+		<echo message="" />
+	</target>
+
+	<!-- INIT -->
+	<target name="init">
+		<mkdir dir="${build.dir}" />
+	</target>
+
+	<!-- COMPILE -->
+	<target name="compile" depends="init" description="Compile main source tree java files">
+		<mkdir dir="${build.dir}" />
+		<javac srcdir="${src.dir}" destdir="${build.dir}" debug="true" debuglevel="lines,vars,source" target="5">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="project.classpath" />
+		</javac>
+	</target>
+
+	<!-- BUILD -->
+	<target name="build" depends="compile">
+		<mkdir dir="${dist_unpacked.dir}" />
+		<copy todir="${dist_unpacked.dir}">
+			<fileset dir="${web.dir}" />
+		</copy>
+		<mkdir dir="${dist_unpacked.dir}/WEB-INF/classes" />
+		<copy todir="${dist_unpacked.dir}/WEB-INF/classes">
+			<fileset dir="${build.dir}">
+			</fileset>
+			<fileset dir="${src.dir}">
+				<include name="**/**.properties" />
+			</fileset>
+			<fileset dir="${src.dir}">
+				<include name="**/**.xml" />
+			</fileset>
+			<fileset dir="${web.dir}/WEB-INF">
+				<include name="log4j.properties" />
+			</fileset>
+			
+		</copy>
+		<copy todir="${dist_unpacked.dir}/WEB-INF/lib" flatten="true" includeEmptyDirs="false">
+			<fileset dir="${lib.dir}">
+				<exclude name="tools/*" />
+			</fileset>
+		</copy>
+		<copy todir="${dist_unpacked.dir}/WEB-INF/classes/META-INF" flatten="true" includeEmptyDirs="false">
+			<fileset dir="${src.dir}/META-INF">
+				<include name="**.*" />
+			</fileset>
+		</copy>
+	</target>
+
+	<!-- BUILD WAR (DIST PACKED) -->
+	<target name="buildwar" depends="build">
+		<war destfile="${dist_packed.dir}/orion.war" basedir="${dist_unpacked.dir}" webxml="${dist_unpacked.dir}/WEB-INF/web.xml" />
+	</target>
+	
+	<!-- DEPLOY -->
+	<target name="deploy" depends="build" description="Deploy application">
+		<mkdir dir="${deploy.path}/${name}/uploads" />
+		<copy todir="${deploy.path}/${name}" preservelastmodified="true">
+			<fileset dir="${dist_unpacked.dir}">
+				<include name="**/*.*" />
+			</fileset>
+		</copy>
+	</target>
+	
+	<!-- DEPLOY_2 -->
+	<target name="deploy_2" depends="build" description="Deploy application.">
+		<mkdir dir="${deploy.path}/${name}/uploads" />
+		<copy todir="${deploy.path}/${name}" preservelastmodified="true">
+			<fileset dir="${dist_unpacked.dir}">
+				<include name="**/*.*" />
+			</fileset>
+		</copy>
+	</target>
+
+	<!-- DEPLOY WAR -->
+	<target name="deploywar" depends="buildwar" description="Deploy application as a WAR file">
+		<copy todir="${deploy.path}" preservelastmodified="true">
+			<fileset dir="${dist_packed.dir}">
+				<include name="*.war" />
+			</fileset>
+		</copy>
+	</target>
+
+	<!-- CLEAN -->
+	<target name="clean" description="Clean output directories">
+		<delete includeemptydirs="on" failonerror="false">
+			<fileset dir="${build.dir}" />
+			<fileset dir="${dist_packed.dir}">
+				<include name="*.war" />
+			</fileset>
+			<fileset dir="${dist_unpacked.dir}" />
+		</delete>
+	</target>
+
+	<!-- UNDEPLOY -->
+	<target name="undeploy" depends="clean" description="Un-Deploy application (the unpacked form)">
+		<delete failonerror="false">
+			<fileset dir="${appserver.home}/logs" />
+			<fileset dir="${appserver.home}/work" />
+			<fileset dir="${deploy.path}/${name}">
+				<include name="**/*.*" />
+				<exclude name="/upload/*.*" />
+			</fileset>
+		</delete>
+	</target>
+
+	<!-- UNDEPLOY WAR -->
+	<target name="undeploywar" depends="clean" description="Un-Deploy application (the war archived form)">
+		<delete failonerror="false">
+            <fileset dir="${appserver.home}/logs" />
+            <fileset dir="${appserver.home}/work" />
+			<fileset dir="${deploy.path}">
+				<include name="${name}.war" />
+			</fileset>
+		</delete>
+	</target>
+
+</project>

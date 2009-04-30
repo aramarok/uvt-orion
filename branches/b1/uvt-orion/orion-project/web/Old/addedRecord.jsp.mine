@@ -1,0 +1,63 @@
+<html>
+
+<head>
+<title>Adaugare Lucrare</title>
+</head>
+<body>
+<%@ page import="com.uvt.team08.orion.domain.model.Lista1" %>
+<%@ page import="com.uvt.team08.orion.domain.service.ListsService" %>
+<%@ page import="com.uvt.team08.orion.view.WebUtil" %>
+<%!
+public ListsService lService = WebUtil.getListsService();
+public Lista1 lista1=new Lista1();
+%>
+
+<%
+try{
+	String titluArticol = request.getParameter("TitluArticol");
+	String autori = request.getParameter("Autori");
+	String revista = request.getParameter("Revista");
+	int volum = Integer.parseInt(request.getParameter("Volum"));
+	int numar = Integer.parseInt(request.getParameter("Numar"));
+	int paginaInceput = Integer.parseInt(request.getParameter("PaginaInceput"));
+	int paginaSfarsit = Integer.parseInt(request.getParameter("PaginaSfarsit"));
+	int anul = Integer.parseInt(request.getParameter("Anul"));
+	double factorImpact = Double.parseDouble(request.getParameter("FactorImpact"));
+	lista1.setTitluArticol(titluArticol);
+	lista1.setAutorii(autori);
+	lista1.setDenumireaRevistei(revista);
+	lista1.setVol(volum);
+	lista1.setNr(numar);
+	lista1.setPaginaDeInceput(paginaInceput);
+	lista1.setPaginaDeSfarsit(paginaSfarsit);
+	lista1.setAnul(anul);
+	lista1.setFactorImpact(factorImpact);
+
+	if (lService.addRecordToList(1,lista1) != null)
+	 {
+%>
+
+Adaugat cu success	 
+
+<%
+	 }
+	 else
+	 {
+%>
+
+Eroare la adaugare
+
+<%
+     }
+}
+catch(Exception e){
+%>
+
+	Exceptie: <%=e.getMessage()%>
+
+<%
+}
+%>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="com.uvt.team08.orion.domain.model.Lista10" table="lista10">
+ 
+		<id name="idLista10" column="id_lista10" type="java.lang.Integer">
+ 			<generator class="increment"/>
+		</id>
+		<property name="tipGrant" column="tip_grant" type="com.uvt.team08.orion.domain.model.hibernatemap.TipGrantHibernate"/>
+		<property name="perioada" column="perioada" type="java.lang.Integer" />
+		<property name="suma" column="suma" type="java.lang.Double" />
+		<property name="directorProgram" column="director_program" type="java.lang.String" />
+
+	</class>
+</hibernate-mapping>
