@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-<%
+<%  
 	response.setHeader("Cache-Control", "no-store, no-cache");
     response.setHeader("Pragma", "no-cache");
     response.setDateHeader("Expires", 0);
@@ -128,9 +128,11 @@ catch (EditException2 e)
 					 	<input type="hidden" name="record_id" value=<%= rowID %> />
 						
 						<tr>
-							<td colspan=3 class="content_header"" style="padding-left: 45px; padding-top: 5px;">
+							<td colspan=3 class="content_header">
 								Alterare pe Lucrare : <%= Tables.getTableNameByID(tableID) %>
 							</td>
+						</tr>
+						<tr height="40px">
 						</tr>
 		<%
 			 // OTHER LIST OR ERROR
@@ -189,7 +191,7 @@ catch (EditException1 e)
 			<COL WIDTH=50%>
 			
 			<tr height=20px>
-				<td colspan=3 class="content_header" style="padding-left: 5px; padding-top: 50px;">
+				<td colspan=3 class="content_header">
 					Adaugare Lucrare : <%= Tables.getTableNameByID(tableID) %>
 				</td>
 			</tr>
@@ -251,7 +253,7 @@ out.println(gui.getInsertForm(listFieldFilter, tableID));
 	%>
 	</td></tr>
 	<tr>
-	<td colspan=2>	
+	<td colspan=3>	
 	
 	<jsp:include page="menus/statusBar.jsp" />
 	</td>

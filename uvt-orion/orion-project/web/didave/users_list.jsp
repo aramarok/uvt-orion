@@ -5,7 +5,7 @@
 	response.setHeader("Pragma", "no-cache");
 	response.setDateHeader("Expires", 0);
 %>
-
+ 
 <%@ page import="com.uvt.team08.orion.domain.model.Right"%>
 <%@ page import="com.uvt.team08.orion.domain.service.UserService"%>
 <%@ page import="com.uvt.team08.orion.view.WebUtil"%>
@@ -65,9 +65,9 @@
 <body style="padding-top: 0px; margin-top: 0px;">
 
 <table width="100%" height="100%" border="0" cellspacing="0" cellpadding="3"
-	align="center">
+	align="center" background="newStyle/images/graymidbottom.gif">
 	<tr height="40">
-		<td class="content_header" style="padding-left: 45px; padding-top: 5px;">
+		<td class="content_header">
 		Utilizatori sistem</td>
 	</tr>
 
@@ -138,7 +138,7 @@
 </td>
 </tr>
 <tr>
-<td colspan=2>
+<td colspan=3>
 <jsp:include page="menus/statusBar.jsp" />
 </td>
 </tr>

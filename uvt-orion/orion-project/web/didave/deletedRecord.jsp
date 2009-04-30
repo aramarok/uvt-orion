@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-<%
+<%  
 	response.setHeader("Cache-Control", "no-store, no-cache");
     response.setHeader("Pragma", "no-cache");
     response.setDateHeader("Expires", 0);
@@ -39,7 +39,7 @@
 <TABLE WIDTH=100% HEIGHT=100% ALIGN=CENTER CELLSPACING=0 BORDER=0>
 
 		<TR>
-			<TD class="contents">
+			<TD class="contents" align="center">
 			<P>
 	<%	try	
 		{
@@ -49,12 +49,12 @@
 			{
 			%>				
 				
-				Articolul a fost sters. 
+				<a class="historylinksucces" href="javascript: history.go(-1)">Articolul a fost sters.</a>
 	<% } else { throw new Exception("Nu s-a putut face stergerea.");
 		}}
 			catch (Exception e) {
 	%>
-			Exceptie: <%=e.getMessage()%> </FONT></P>
+			<a class="historylinkerror" href="javascript: history.go(-1)">Exceptie: <%=e.getMessage()%> </FONT></a></P>
 	<%
 		}		
 	%>
@@ -65,7 +65,7 @@
 </td>
 </tr>
 <tr>
-<td colspan=2>
+<td colspan=3>
 <jsp:include page="menus/statusBar.jsp" />
 </td>
 </tr>

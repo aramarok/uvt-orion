@@ -10,7 +10,7 @@
 <%@ page import="java.util.Iterator" %>
 
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>  
 <%
 	response.setHeader("Cache-Control", "no-store, no-cache");
     response.setHeader("Pragma", "no-cache");
@@ -119,7 +119,7 @@ window.onload = function ()
 			if (mesaj_eronat == null) mesaj_eronat = ""; %>
 							
 
-			<TABLE WIDTH="100%" HEIGHT="100%" ALIGN="CENTER" CELLSPACING="0" BORDER="0">
+			<TABLE WIDTH="100%" HEIGHT="100%" ALIGN="CENTER" CELLSPACING="0" BORDER="0" background="newStyle/images/graymidbottom.gif">
 			<FORM NAME="Forma" ACTION="addRecord.jsp" METHOD ="GET">
 					
 				<COL WIDTH=38%>
@@ -127,9 +127,12 @@ window.onload = function ()
 				<COL WIDTH=50%>
 				
 				<tr height=20px>
-					<td colspan=3 class="content_header" style="padding-left: 45px; padding-top: 5px;" valign="center">
+					<td colspan=3 class="content_header">
 						Adaugare Lucrare : <%= Tables.getTableNameByID(tableID) %>
 					</td>
+				</tr>
+				
+				<tr height="40px">
 				</tr>
 <%
 	 // OTHER LIST OR ERROR
@@ -143,7 +146,7 @@ window.onload = function ()
 			<tr>
 				<td colspan=3 align="center" class="contents_important_message">
 				<%	
-					out.println("Adaugarea a avut succes.");
+					out.println("Adaugarea s-a executat cu succes.");
 				%> 		
 				</td>
 			</tr>
@@ -152,8 +155,8 @@ window.onload = function ()
 		else 
 		{
 			%>
-			<tr bgcolor="MAGENTA"  height="18">
-				<td colspan=3 align="center" class="contents_important_message">
+			<tr height="18">
+				<td colspan=3 align="center" class="contents_important_message_error">
 				<%
 					out.println(mesaj_eronat);
 					//out.println(new com.uvt.team08.orion.domain.service.GUIServiceBean().getExceptionDetails(e));
@@ -183,10 +186,12 @@ window.onload = function ()
 			<TD COLSPAN=3 ALIGN=CENTER class="contents">
 			<P><BR></P>
 			</TD>
+
 		</TR>
 	 		<input type="hidden" name="nume_tabela" value=<%= tableID %> />
 			<input type="hidden" name="inserare" value="é" />
 		</FORM>
+
 	</TABLE>
 	
 			<%
@@ -195,7 +200,7 @@ window.onload = function ()
 	</td>
 	</tr>
 	<tr>
-	<td colspan=2>
+	<td colspan=3>
 				<jsp:include page="menus/statusBar.jsp" />
 			</td>
 			</tr>

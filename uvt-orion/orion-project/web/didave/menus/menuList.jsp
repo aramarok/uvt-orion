@@ -1,5 +1,5 @@
 <%@ page import="java.util.ArrayList" %>
-<%
+<%  
 String[][] menuList = {{"Meniu", null, "0"},
 					   {"Home", "home.jsp", "0"},	
 					   {"Adaugare", "chooseList.jsp", "0"},

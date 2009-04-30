@@ -2,7 +2,7 @@
 
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-<%
+<%  
 	response.setHeader("Cache-Control", "no-store, no-cache");
     response.setHeader("Pragma", "no-cache");
     response.setDateHeader("Expires", 0);
@@ -49,28 +49,38 @@ public int action = CHOOSE_LIST;
 %>			
 		<TABLE WIDTH="100%" HEIGHT="100%" ALIGN="CENTER" CELLSPACING="0" BORDER="0" class="contents">			
 				<tr>
-					<td colspan=3 class="content_header" style="padding-left: 45px; padding-top: 5px;">
+					<td colspan=3 class="content_header">
 					Alegeti lista pentru cautare</td>
 				</tr>	
 			<TR height=100% class="contents">
-			<td class="contents" COLSPAN=1>
+			<td class="contents" COLSPAN=1 background="newStyle/images/graymidbottom.gif">
+		
+			<pre>
 		
 			<%
 			String [] keys = Tables.getListIDsSortedByListsNames();
 
-			out.println("<BR />	<A href=\"searchRecord.jsp?nume_tabela=all" 
-            						+ "\" STYLE=\"font-family: Verdana, 'Arial', sans-serif; font-size: 12pt; padding-left:30px; color: #ADDFFF; \"><B> Activitate pe perioada </B></A><br/>");
+			out.println("<BR /><A href=\"searchRecord.jsp?nume_tabela=all" 
+            						+ "\" class=\"text2\" STYLE=\"padding-left:56px;\"><B>Activitate pe perioada </B></A><br>");
+			
 			
 			for (int i = 0; i < keys.length; i++) {
 				String name = Tables.getTableNameByID(keys[i]);
 				
-				out.println("<BR /> <BR />	<A href=\"searchRecord.jsp?nume_tabela=" + keys[i]
-						+ "\" STYLE=\"font-family: Verdana, 'Arial', sans-serif; font-size: 12pt; padding-left:30px; color: #ADDFFF; \"><B>" + name + "</B></A>");
+				out.println("<br><A href=\"searchRecord.jsp?nume_tabela=" + keys[i]
+						+ "\" STYLE=\"padding-left:56px;\" class=\"text2\"><B>" + name + "</B></A>");
 			}
 			%>			
+			
+			</pre>
+			
 			</td>
 			</TR>			
-					
+			<tr>
+				<TD COLSPAN=3 background="newStyle/images/graymidbottom.gif">
+					<br/>
+				</TD>
+			</tr>
 		</TABLE>
 		
 		<%
@@ -78,15 +88,17 @@ public int action = CHOOSE_LIST;
 	
 	if (action == DISPLAY_LIST) {
 %>
-		<TABLE WIDTH="100%" HEIGHT="100%" ALIGN="CENTER" CELLSPACING="0" BORDER="0">
+		<TABLE WIDTH="100%" HEIGHT="100%" ALIGN="CENTER" CELLSPACING="0" BORDER="0" background="newStyle/images/graymidbottom.gif">
 				<COL WIDTH=38%>
 				<COL WIDTH=2%>
 				<COL WIDTH=50%>				
-				<FORM NAME="Forma" ACTION="doSearchRecord.jsp" METHOD ="GET">
 				<tr>
-					<td colspan=3 class="content_header" style="padding-left: 45px; padding-top: 5px;">
+					<td colspan=3 class="content_header">
 					Cautare Lucrare</td>
+					<FORM NAME="Forma" ACTION="doSearchRecord.jsp" METHOD ="GET">
 				</tr>	
+				<tr height="40px">
+				</tr>
 <%
 	 // OTHER LIST OR ERROR
 	 String tableName = nrlista;
@@ -95,7 +107,9 @@ public int action = CHOOSE_LIST;
 <%	 
 	GUIService gui = WebUtil.getGUIService();
 	
-	out.println(gui.getSearchForm(tableName));
+	Integer aidi =  session.getAttribute("aidi") == null ? -1 : Integer.parseInt(String.valueOf(session.getAttribute("aidi")));
+
+	out.println(gui.getSearchForm(tableName, session.getAttribute("rol") == null ? "" : String.valueOf(session.getAttribute("rol")), aidi));
 
 %>
 		<TR>
@@ -117,9 +131,8 @@ public int action = CHOOSE_LIST;
 			<TD COLSPAN=3 ALIGN=CENTER class="contents">
 			<P><BR></P>
 			</TD>
-		</TR>
-		
 			</FORM>
+		</TR>
 		</TABLE>		
 
 <%
@@ -130,7 +143,7 @@ public int action = CHOOSE_LIST;
 </td>
 </tr>
 <tr>
-<td colspan=2>
+<td colspan=3>
 
 <jsp:include page="menus/statusBar.jsp" />
 </td>

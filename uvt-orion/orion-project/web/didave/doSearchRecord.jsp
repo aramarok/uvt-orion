@@ -1,10 +1,10 @@
 <%@page import="com.uvt.team08.orion.domain.service.GUIService"%>
-<html>
+<html>  
 
 <head>
 <title>Cautare avansata</title>
 </head>
-<body>
+<body style="margin-top:0px;">
 
 <%@ page import="com.uvt.team08.orion.domain.model.Metatable" %>
 <%@ page import="com.uvt.team08.orion.domain.model.FieldFilter" %>
@@ -38,15 +38,18 @@ try
 	if (id_user != null && id_user.length() > 0)
 		user = Integer.parseInt(id_user);
 	else user = -1;
+	
 	/******************************/
 
 	listFieldFilter = new ArrayList<FieldFilter>();
-
+	
 	if (numeTabela.equals("all"))
 	try
 	{
 		listFieldFilter.add(FieldFilter.newFieldFilter("nume", "Nume", request.getParameter("nume"), request.getParameter("nume"), "varchar", null));
 		listFieldFilter.add(FieldFilter.newFieldFilter("data", "Anul", request.getParameter("data1"), request.getParameter("data2"), "int", null));		
+		
+		if (user >= 0) listFieldFilter.add(FieldFilter.newFieldFilter("id_user", "", "" + user, "" + user, "int", null));
 		
 		Hashtable<String, DataTable> records = WebUtil.getSearchService().searchTable(listFieldFilter);
 	 	Set<String> keys = records.keySet();
@@ -81,7 +84,7 @@ try
 		}
 %>
 		<TR>
-			<TD class="contents">
+			<TD class="contents" align="center">
 			
 <%
 
@@ -198,7 +201,7 @@ try
 </td>
 </tr>
 <tr>
-<td colspan=2>
+<td colspan=3>
 <jsp:include page="menus/statusBar.jsp" />
 </td>
 </tr>

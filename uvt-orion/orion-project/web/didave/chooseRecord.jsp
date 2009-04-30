@@ -1,5 +1,5 @@
 <%@page import="com.uvt.team08.orion.meta.Tables"%>
-
+  
 <html>
 <head>
 <title>Alegere Lista</title>
@@ -8,9 +8,9 @@
 	<%@ include file="chooseMenu.jsp" %>
 	
 	<FORM NAME="Forma" ACTION="addRecord.jsp" METHOD ="GET">
-	<table width=100% height=100% CELLSPACING=0 BORDER=0>
+	<table width=100% height=100% CELLSPACING=0 BORDER=100>
 		<tr>
-			<td colspan=2 class="content_header" style="padding-left: 45px; padding-top: 5px;">
+			<td colspan=2 class="content_header">
 			Alegere Lista
 			</td>
 		</tr>			
