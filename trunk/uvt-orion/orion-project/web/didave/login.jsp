@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"  
 	pageEncoding="ISO-8859-1"%>
 <%
 	response.setHeader("Cache-Control", "no-store, no-cache");
@@ -17,6 +17,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Autentificare</title>
 <link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="newStyle/style.css" />
 </head>
 <body style="padding-top:0px; margin-top:200px;">
 
@@ -83,39 +84,13 @@
 	if (logged == false)
 	{
 		%>
-		<form method="post" action="login.jsp">
-		<table width="300" border="0" cellspacing="0" cellpadding="3" align="center">
-		  <tr bgcolor="#8DA3B1" height="40">
-		  	<td class="header_text" colspan="2" style="padding-left:45px;">
-				Autentificare
-			</td>
-		  </tr>
-		  <tr bgcolor="#DFE8F0" height="40">
-			<td class="field_name" width="90">
-				<b>E-mail: </b>
-			</td>
-			<td>
-				<input class="field_value" type="text" name="user_name">
-			</td>
-		  </tr>
-		  <tr bgcolor="#DFE8F0" height="40">
-		  	<td class="field_name">
-		  		<b>Parola: </b>
-		  	</td>
-		  	<td>
-		  		<input class="field_value" type="password" name="user_password">
-		  	</td>
-		  </tr>
-		  <tr bgcolor="#8DA3B1" height="30">
-		  	<td>&nbsp;</td>
-			<td>
-				<input class="buton" type="submit" value="Autentifica">
-			</td>
-		  </tr>
-		  <% if (logerr)
-			out.print("<tr><td class= \"err_field\" colspan = \"2\" style=\"padding-top:10\" height =\"20\" valign = \"middle\">Eroare ! Date invalide ! </td></tr>");%>
-		</table>
-		</form>
+		  
+		  
+		  
+		  
+		  
+		  
+		  
 		<%
 	}
 	else
@@ -126,5 +101,90 @@
 			response.sendRedirect("home.jsp");
 	}
 %>
+
+
+
+		<form method="post" action="login.jsp">
+		<table cellspacing="0" cellpadding="0" border="0" align="center">
+			<tbody>
+				<tr>
+					<td>
+						<table width="300px" cellspacing="0" cellpadding="0" border="0" ?="">
+							<tbody>
+								<tr>
+									<td width="21" valign="top" background="newStyle/images/darkgraybg.gif"><img width="10" height="20" src="newStyle/images/darkgrayleft.gif"/></td>
+									<td background="newStyle/images/darkgraybg.gif" align="left"><strong class="welcometext"><font color="#ffffff">Autentificare</font></strong></td>
+									<td width="19" valign="top" background="newStyle/images/darkgraybg.gif"><img width="19" height="21" src="newStyle/images/darkgrayright.gif"/></td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="http://www.teamred.excel-west.com/"><img width="2" height="2" border="0" src="newStyle/images/trans.gif"/></a>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top" background="newStyle/images/graymidbottom.gif"> 
+						<table width="300px" cellspacing="5" cellpadding="5" border="0">
+							<tbody>
+								<tr>
+									<td valign="top" class="text1">
+											<table width="250px" align="left" border="0">
+												<tr height="19"/>
+												<tr height="40">
+													<td class="text2" width="50">
+														<b>E-mail: </b>
+													</td>
+													<td>
+														<input class="field_value" type="text" name="user_name" size="32">
+													</td>
+												  </tr>
+												  <tr height="40">
+												  	<td class="text2">
+												  		<b>Parola: </b>
+												  	</td>
+												  	<td>
+												  		<input class="field_value" type="password" name="user_password" size="32">
+												  	</td>
+												  </tr>
+												  <tr height="30">
+												  	<td>&nbsp;</td>
+													<td>
+														<input class="buton" type="submit" value="Autentifica">
+													</td>
+												  </tr>
+												  <% if (logerr)
+													out.print("<tr><td class= \"err_field\" colspan = \"2\" style=\"padding-top:10\" height =\"20\" valign = \"middle\">Eroare ! Date invalide ! </td></tr>");%>
+											</table>
+										</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table width="300px" cellspacing="0" cellpadding="0" border="0">
+							<tbody>
+								<tr>
+									<td background="newStyle/images/graymidbottom.gif" width="11" valign="bottom" <img width="11" height="18" src="newStyle/images/grayleftbottom.gif"/></td>
+									<td background="newStyle/images/graymidbottom.gif"> </td>
+									<td background="newStyle/images/graymidbottom.gif" width="11" valign="bottom" align="right"><img width="10" height="18" src="newStyle/images/grayrightbottom.gif"/></td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+</form>
+
+
+
+
+
 </body>
 </html>

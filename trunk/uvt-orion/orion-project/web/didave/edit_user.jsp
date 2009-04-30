@@ -7,7 +7,7 @@
 <%@ page import="com.uvt.team08.orion.view.WebUtil"%>
 <%@ page import="com.uvt.team08.orion.domain.model.User"%>
 <%@ page import="com.uvt.team08.orion.domain.model.Status"%>
-<%@ page import="java.util.List"%>
+<%@ page import="java.util.List"%> 
 <%@ page import="java.util.Date"%>
 <%@ page import="com.uvt.team08.orion.domain.model.FunctieDidactica"%>
 <%@ page import="com.uvt.team08.orion.domain.model.Level"%>
@@ -1160,9 +1160,9 @@ window.onload = function () {
 
 <body style="padding-top: 0px; margin-top: 0px;">
 
-<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="3" align="center">
-	<tr height="40">
-		<td class="content_header" style="padding-left: 45px; padding-top: 5px;">
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="3" align="center" background="newStyle/images/graymidbottom.gif">
+	<tr>
+		<td class="content_header">
 		<% if (usage == 0) out.print("Adaugare utilizator"); else out.print("Editare cont");%>
 		</td>
 	</tr>
@@ -1312,7 +1312,7 @@ window.onload = function () {
 			</tr>
 
 			<tr>
-				<td colspan="2" class="field_name">
+				<td colspan="2" class="contents">
 				<% if (usage == 1 && editu.getCvLocation().length() > 3) out.print("<a class=\"field_name\" href=\"" + editu.getCvLocation() + " \">CV</a> " ); %>
 				</td>
 			</tr>
@@ -1343,16 +1343,12 @@ window.onload = function () {
 		</form>
 		</td>
 	</tr>
-	<tr class="contents" height="30">
-		<td>
-		</td>
-	</tr>
 </table>
 
 </td>
 </tr>
 <tr>
-<td colspan=2>
+<td colspan=3>
 <jsp:include page="menus/statusBar.jsp" />
 </td>
 </tr>

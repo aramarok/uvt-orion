@@ -1,5 +1,5 @@
 <!-- 
- *
+ *  
  * Includeti acest fisier in headerul fiecarui jsp;
  * controlul se va face utilizand urmatoarele varibile:
  *		usr_id 		id-ul utilizatorului logat
@@ -35,5 +35,10 @@ else
 		usr_role = Right.ADMINISTRATOR;
 	else
 		usr_role = Right.USER;
+	
+	session.setAttribute("rol", usr_role);
+	session.setAttribute("aidi", usr_id);
 }
 %>
+
+<link rel="stylesheet" type="text/css" href="newStyle/style.css" />

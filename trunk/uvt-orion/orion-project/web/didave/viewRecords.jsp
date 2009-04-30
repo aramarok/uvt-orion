@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-<%
+<%  
 	response.setHeader("Cache-Control", "no-store, no-cache");
 	response.setHeader("Pragma", "no-cache");
 	response.setDateHeader("Expires", 0);
@@ -75,14 +75,14 @@ function selectItemsToErase() {
 			<INPUT type="hidden" name="nume_tabela" value="" />
 			<INPUT type="hidden" name="table" value="aux_chump" />
 	
-		<tr height="40">
-			<td class="content_header" style="padding-left: 45px; padding-top: 5px;">
+		<tr>
+			<td class="content_header">
 				Vizualizare Lucrari
 			</td>
 		</tr>
 
 		<TR ALIGN=CENTER>
-	 		<TD class="contents">
+	 		<TD class="contents" background="newStyle/images/graymidbottom.gif">
 				<BR>
 			</TD>
 		</TR>
@@ -135,7 +135,7 @@ function selectItemsToErase() {
 		</tr>
 <% } %>
 		<TR>
-			<td colspan=3 class="contents" align=middle>
+			<td colspan=3 class="contents" align=middle background="newStyle/images/graymidbottom.gif">
 		
 <%
 	if (!anyrecords) {	
@@ -177,7 +177,7 @@ function selectItemsToErase() {
 	</td>
 	</tr>
 	<tr>
-	<td colspan=2>
+	<td colspan=3>
 	<jsp:include page="menus/statusBar.jsp" />
 	</td>
 	</tr>
