@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="com.uvt.team08.orion.domain.model.Lista3" table="lista3">
+ 
+		<id name="idLista3" column="id_lista3" type="java.lang.Integer">
+ 			<generator class="increment"/>
+		</id>
+		<property name="titluArticol" column="titlu_articol" type="java.lang.String" />
+		<property name="autorii" column="autorii" type="java.lang.String" />
+		<property name="denumireaRevistei" column="denumirea_revistei" type="java.lang.String" />
+		<property name="vol" column="vol" type="java.lang.Integer" />
+		<property name="nr" column="nr" type="java.lang.Integer" />
+		<property name="paginaDeInceput" column="pagina_de_inceput" type="java.lang.Integer" />
+		<property name="paginaDeSfarsit" column="pagina_de_sfarsit" type="java.lang.Integer" />
+		<property name="anul" column="anul" type="java.lang.Integer" />
+
+	</class>
+</hibernate-mapping>

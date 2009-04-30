@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+<session-factory>
+	<property name="connection.url">jdbc:mysql://localhost/orion</property>
+	<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+	<property name="connection.username">orion</property>
+	<property name="connection.password">orion</property>
+	<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+	
+	 <!-- JDBC connection pool (use the built-in) -->
+     <property name="connection.pool_size">1</property>
+	
+ 	<property name="transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>
+    <!--  thread is the short name for
+      org.hibernate.context.ThreadLocalSessionContext
+      and let Hibernate bind the session automatically to the thread
+    -->
+    <property name="current_session_context_class">thread</property>
+   
+    <!-- this will show us all sql statements -->
+    <property name="hibernate.show_sql">true</property>
+ 	
+	<!-- mapping files -->
+	<mapping resource="User.hbm.xml" />
+	<mapping resource="Lista1.hbm.xml" />
+	<mapping resource="Lista2.hbm.xml" />
+	<mapping resource="Lista3.hbm.xml" />
+	<mapping resource="Lista4.hbm.xml" />
+	<mapping resource="Lista5.hbm.xml" />
+	<mapping resource="Lista6.hbm.xml" />
+	<mapping resource="Lista7.hbm.xml" />
+	<mapping resource="Lista8.hbm.xml" />
+	<mapping resource="Lista9.hbm.xml" />
+	<mapping resource="Lista10.hbm.xml" />
+	<mapping resource="Metatable.hbm.xml" />
+
+</session-factory>
+</hibernate-configuration>
