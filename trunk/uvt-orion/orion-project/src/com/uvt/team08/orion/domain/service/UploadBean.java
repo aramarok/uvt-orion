@@ -45,12 +45,12 @@ public class UploadBean {
 		    	if (item.getSize() > 0)
 		    	{
 		    		String sname = item.getName().substring(item.getName().lastIndexOf("\\") , item.getName().length());
-		    		File uploadedFile = new File(System.getProperty("user.dir") + sep +".."+sep+"webapps"+sep+"orion2"+sep+"uploads"+sep+ System.currentTimeMillis() + "_" + sname.substring(1, sname.length()));
+		    		File uploadedFile = new File(System.getProperty("user.dir") + sep +".."+sep+"webapps"+sep+"orion"+sep+"uploads"+sep+ System.currentTimeMillis() + "_" + sname.substring(1, sname.length()));
 		    		try	
 		    		{
 		    			java.util.Date abcdef = new java.util.Date (); 
 		    			UserService userService = WebUtil.getUserService();
-		    			userService.setCVLocation(Integer.parseInt(v1), Integer.parseInt(v2), /*request.getLocalName() +*/ "orion2"+sep2+".."+sep2+".."+sep2+".."+sep2+"uploads"+sep2+ System.currentTimeMillis() + "_" + sname.substring(1, sname.length()));
+		    			userService.setCVLocation(Integer.parseInt(v1), Integer.parseInt(v2), /*request.getLocalName() +*/ "orion"+sep2+".."+sep2+".."+sep2+".."+sep2+"uploads"+sep2+ System.currentTimeMillis() + "_" + sname.substring(1, sname.length()));
 		    			item.write(uploadedFile);
 		    			return 0;
 		    			
