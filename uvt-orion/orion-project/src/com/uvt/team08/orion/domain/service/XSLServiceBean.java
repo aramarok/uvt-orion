@@ -151,11 +151,11 @@ public class XSLServiceBean implements XSLService {
 	public String createXSLWorkbookFromDataTable(String realPath, String name, List<DataTable> tables) {
 		String jump = "_" + Math.abs(new Random().nextInt());
 		
-		String path = realPath + "\\didave\\" + "out" + jump + ".xls";
+		String path = realPath + File.separator + "didave" +File.separator +  "out" + jump + ".xls";
 		String path2 = "out" + jump + ".xls";
 		
 		if (name != null && name.length() > 0) {
-			path = realPath + "\\didave\\" + name + ".xls";
+			path = realPath + File.separator + "didave" + File.separator + name + ".xls";
 			path2 = name + ".xls";
 		}
 		

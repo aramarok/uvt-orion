@@ -25,7 +25,7 @@ import java.util.Set;
  */
 public class GUIServiceBean implements GUIService {
 
-    @Override
+  //  @Override
     public String getInsertForm(List<FieldFilter> ffields, String listName) {
 	String result = "";
 
@@ -113,7 +113,7 @@ public class GUIServiceBean implements GUIService {
 	return WebUtil.getTableService().getTable(listName);
     }
 
-    @Override
+   // @Override
     public String getSearchForm(String listName, String rol, Integer aidi) {
 	String result = "";
 
