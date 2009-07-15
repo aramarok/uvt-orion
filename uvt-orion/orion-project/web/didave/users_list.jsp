@@ -19,6 +19,24 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Utilizatori sistem</title>
+
+<style type="text/css">
+.pg-normal {
+	color: black;
+	font-weight: normal;
+	text-decoration: none;
+	cursor: pointer;
+}
+.pg-selected {
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: pointer;
+}
+</style>
+
+<script type="text/javascript" src="paging.js"></script>
+
 </head>
 <%@ include file="chooseMenu.jsp" %>
 <%
@@ -73,19 +91,19 @@
 
 	<tr height="450">
 		<td class="contents" valign="top" style="padding-top:40px; padding-bottom:40px;">
-			<table align="center" border="0" cellspacing="1" cellpadding="1" width="720">
+			<table id="users" align="center" border="0" cellspacing="1" cellpadding="1" width="720">
 			<%
-			/*
-			if (infomsg > -1) {
-				out.print("<tr><td class=\"err_field\" colspan=\"3\">info: ["
-						+ infomsg + "]");
-				if (infomsg == 1)
-					out.print(" [duplicare adresa de email]");
-				if (infomsg == 2)
-					out.print(" [ursusul a fost creat]");
-				out.print("<td></tr>");
-			}
-			*/
+				/*
+				if (infomsg > -1) {
+					out.print("<tr><td class=\"err_field\" colspan=\"3\">info: ["
+							+ infomsg + "]");
+					if (infomsg == 1)
+						out.print(" [duplicare adresa de email]");
+					if (infomsg == 2)
+						out.print(" [ursusul a fost creat]");
+					out.print("<td></tr>");
+				}
+				 */
 			%>
 				<tr class="table_header">
 					<td width="340">Utilizator</td>
@@ -101,34 +119,28 @@
 					while (it.hasNext()) {
 						User curr = (User) it.next();
 						out.println("<tr class=\"");
-						String class_name = null; 
+						String class_name = null;
 						if (place % 2 == 0)
 							class_name = "odd";
 						else
 							class_name = "even";
 						out.println(class_name);
 						place++;
-						out
-								.print("\" onMouseOver=\"this.className='trhover'\" onMouseOut=\"this.className='" + class_name +"'\"><td><a class=\"bold_link\" href=\"edit_user.jsp?uid="
-										+ curr.getUserId()
-										+ "\">"
-										+ curr.getFirstName()
-										+ " "
-										+ curr.getLastName()
-										+ "</a></td><td><a class=\"normal_link\" href=\"mailto:"
-										+ curr.getEmailAddress()
-										+ "\">"
-										+ curr.getEmailAddress()
-										+ "</a></td><td><a class=\"normal_link\" href=\"users_list.jsp?");
+						out.print("\" onMouseOver=\"this.className='trhover'\" onMouseOut=\"this.className='" + class_name
+								+ "'\"><td><a class=\"bold_link\" href=\"edit_user.jsp?uid=" + curr.getUserId() + "\">" + curr.getFirstName() + " "
+								+ curr.getLastName() + "</a></td><td><a class=\"normal_link\" href=\"mailto:" + curr.getEmailAddress() + "\">" + curr.getEmailAddress()
+								+ "</a></td><td><a class=\"normal_link\" href=\"users_list.jsp?");
 						if (curr.getUserStatus() == Status.DISABLED)
-							out.print("enable_id=" + curr.getUserId()
-									+ "\">ENABLE</a></td></tr>");
+							out.print("enable_id=" + curr.getUserId() + "\">ENABLE</a></td></tr>");
 						else
-							out.print("disable_id=" + curr.getUserId()
-									+ "\">DISABLE</a></td></tr>");
+							out.print("disable_id=" + curr.getUserId() + "\">DISABLE</a></td></tr>");
 					}
 				%>
 			</table>
+			<center>
+			<div id="pageNavPosition"></div>
+			</center>
+			 
 		</td>
 	</tr>
 	<tr height="20">
@@ -143,5 +155,14 @@
 </td>
 </tr>
 </table>
+
+<script type="text/javascript">
+	var pager = new Pager('users', 12);
+	pager.init();
+	pager.showPageNav('pager', 'pageNavPosition');
+	pager.showPage(1);
+</script>
+
+
 </body>
 </html>
